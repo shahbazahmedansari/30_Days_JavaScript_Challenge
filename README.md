@@ -14,3 +14,11 @@
 - Compare values using comparison operators.
 - Combine conditions using logical operators.
 - Use the ternary operator for concise conditional expressions.
+
+## Day-3: Control Structures
+
+- Implement and understand basic if-else control flow.
+- Use nested if-else statements to handlemultiple conditions.
+- Utilize switch cases for control flow based on specific values.
+- Apply the ternary operator for concise condition checking.
+- Combine multiple conditions to solve more complex problems.
