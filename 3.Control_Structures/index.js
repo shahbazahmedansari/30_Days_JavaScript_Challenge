@@ -1,6 +1,6 @@
-//Activity-1: If-Else Statements:
+// Activity-1: If-Else Statements:
 
-//Task-1: Write a program to check if a number is positive, negative or zero and log the result.
+// Task-1: Write a program to check if a number is positive, negative or zero and log the result.
 
 function checkNumber(num) {
   if (Math.sign(num) === -1) {
@@ -15,7 +15,7 @@ checkNumber(-5);
 checkNumber(100);
 checkNumber(0);
 
-//Task-2: Write a program to check if a person is eligible to vote (age >= 18) and log the result to the console.
+// Task-2: Write a program to check if a person is eligible to vote (age >= 18) and log the result to the console.
 
 function isAbleToVote(age) {
   if (age >= 18) {
@@ -27,9 +27,9 @@ function isAbleToVote(age) {
 isAbleToVote(17);
 isAbleToVote(20);
 
-//Activity-2: Nested If-Else Statements:
+// Activity-2: Nested If-Else Statements:
 
-//Task-3: Write a program to find the largest of three numbers using nested if-else statements.
+// Task-3: Write a program to find the largest of three numbers using nested if-else statements.
 
 function nestedCheck(num1, num2, num3) {
   if (num1 > num2) {
@@ -49,9 +49,9 @@ nestedCheck(5, 4, 3);
 nestedCheck(10, 12, 9);
 nestedCheck(7, 13, 15);
 
-//Activity-3: Switch Case
+// Activity-3: Switch Case
 
-//Task-4: Write a program that uses a switch case to determine the day of the week based on a number (1-7) and log the day name to the console.
+// Task-4: Write a program that uses a switch case to determine the day of the week based on a number (1-7) and log the day name to the console.
 
 function weekdayCheck(dayNumber) {
   switch (dayNumber) {
@@ -85,7 +85,7 @@ weekdayCheck(0);
 weekdayCheck(8);
 weekdayCheck(5);
 
-//Task-5: Write a program that uses a switch case to assign a grade ('A', 'B', 'C', 'D', 'E', 'F') based on score and log the grade to the console.
+// Task-5: Write a program that uses a switch case to assign a grade ('A', 'B', 'C', 'D', 'E', 'F') based on score and log the grade to the console.
 
 function scoreCheck(score) {
   let grade;
@@ -120,9 +120,9 @@ scoreCheck(85);
 scoreCheck(25);
 scoreCheck(110);
 
-//Activity-4: Conditional (Ternary) Operator:
+// Activity-4: Conditional (Ternary) Operator:
 
-//Task-6: Write a program that uses the ternary operator to check if a number is even or odd and log the result to the console.
+// Task-6: Write a program that uses the ternary operator to check if a number is even or odd and log the result to the console.
 
 function isEvenOrOdd(num) {
   num % 2 === 0
@@ -132,9 +132,9 @@ function isEvenOrOdd(num) {
 isEvenOrOdd(5);
 isEvenOrOdd(10);
 
-//Activity-5: Combining Conditions:
+// Activity-5: Combining Conditions:
 
-//TAsk-7: Write a program to check if a year is a leap year using multiple conditions (divisible by 4, but not 100 unless also divisible by 400) and log the result to the console.
+// TAsk-7: Write a program to check if a year is a leap year using multiple conditions (divisible by 4, but not 100 unless also divisible by 400) and log the result to the console.
 
 function isLeapYear(year) {
   if (year % 4 === 0 && (year % 400 === 0 || year % 100 !== 0)) {
