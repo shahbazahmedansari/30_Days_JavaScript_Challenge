@@ -38,3 +38,10 @@
 - Create and utilize higher order functions.
 - Apply functions to solve common problems and perform calculations.
 - Enhance code reusability and organizing using functions.
+
+## Day-6: Arrays
+
+- Create and manipulate arrays using various methods.
+- Transform and aggregate array data using `map`, `filter` and `reduce`.
+- Iterate over arrays using loops and iteration methods.
+- Understand and work with multi-dimensional arrays.
