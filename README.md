@@ -45,3 +45,10 @@
 - Transform and aggregate array data using `map`, `filter` and `reduce`.
 - Iterate over arrays using loops and iteration methods.
 - Understand and work with multi-dimensional arrays.
+
+## Day-7: Objects
+
+- Create and manipulate objects with properties and methods.
+- Understand and use the `this` keyword in object methods.
+- Work with nested objects and array of objects.
+- Iterate over an object's properties using loops and built-in methods.
