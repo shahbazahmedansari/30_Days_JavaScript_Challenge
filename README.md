@@ -52,3 +52,11 @@
 - Understand and use the `this` keyword in object methods.
 - Work with nested objects and array of objects.
 - Iterate over an object's properties using loops and built-in methods.
+
+## Day-8: ES6+ Features
+
+- Understand and use template literals for string interpolation and multi-line strings.
+- Apply destructuring to extract values from arrays and objects.
+- Utilize spread and rest operators for array manipulation and function arguments.
+- Define functions with default parameters.
+- Create objects using enhanced object literals, including methods and computed property names.
