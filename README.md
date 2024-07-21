@@ -60,3 +60,11 @@
 - Utilize spread and rest operators for array manipulation and function arguments.
 - Define functions with default parameters.
 - Create objects using enhanced object literals, including methods and computed property names.
+
+## Day-9: DOM Manipulation:
+
+- Select and manipulate DOM elements using Javascript.
+- Create and append new elements to the DOM.
+- Remove elements from the DOM.
+- Modify attributes and classes of HTML elements.
+- Add and handle events to make web pages interactive.
