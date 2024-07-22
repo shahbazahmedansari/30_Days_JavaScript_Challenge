@@ -68,3 +68,10 @@
 - Remove elements from the DOM.
 - Modify attributes and classes of HTML elements.
 - Add and handle events to make web pages interactive.
+
+## Day-10: Event Handling:
+
+- Add an handle basic events like click, double-click, mouseover, mouseout, keydown and keyup.
+- Understand and handle form events.
+- Implement event delegation to manage events on dynamically added events.
+- Make web pages inetractive by responding to various user actions.

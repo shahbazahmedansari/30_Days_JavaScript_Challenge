@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Task-1 -->
+    <p id="text">This is the paragraph</p>
+    <button onclick="changeContent()" id="textButton">Click here!</button><br />
+
+    <!-- Task-2 -->
+    <img
+      src="./images/demo.jpg"
+      alt="demo_image"
+      style="margin-top: 30px"
+      width="500px"
+      height="500px"
+      id="demoImage"
+    />
+
+    <!-- Task-3 and Task-4 -->
+    <div
+      id="box"
+      style="width: 200px; height: 200px; background-color: blue"
+    ></div>
+
+    <!-- Task-5 -->
+    <input
+      type="text"
+      id="newInput"
+      placeholder="Press the key"
+      style="padding: 15px; margin-top: 10px"
+    />
+    <!-- Task-6 -->
+    <p id="paraElement"></p>
+
+    <!-- Task-7 -->
+    <form id="newForm">
+      <label for="username">Enter Username</label><br />
+      <input
+        id="username"
+        type="text"
+        placeholder="Enter Username"
+        style="padding: 15px; margin-top: 10px; margin-bottom: 10px"
+      /><br />
+      <label for="email">Enter Email</label><br />
+      <input
+        id="email"
+        type="text"
+        placeholder="Enter Email"
+        style="padding: 15px; margin-top: 10px; margin-bottom: 10px"
+      /><br />
+      <label for="password">Enter Password</label><br />
+      <input
+        id="password"
+        type="password"
+        placeholder="Enter Password"
+        style="padding: 15px; margin-top: 10px; margin-bottom: 10px"
+      /><br />
+      <button
+        type="submit"
+        id="submitButton"
+        style="padding: 15px; margin-top: 10px"
+      >
+        Submit
+      </button>
+    </form>
+
+    <!-- Task-8 -->
+    <select style="margin-top: 10px; padding: 10px" id="tags">
+      <option value="new">New</option>
+      <option value="recommended">Recommended</option>
+      <option value="featured">Featured</option>
+      <option value="popular">Popular</option>
+    </select>
+
+    <p id="selectPara"></p>
+
+    <!-- Task-9 -->
+    <ul id="newList">
+      <li id="js" value="JavaScript">JavaScript</li>
+      <li id="react" value="ReactJS">ReactJS</li>
+      <li id="ts" value="TypeScript">TypeScript</li>
+      <li id="next" value="NextJS">NextJS</li>
+    </ul>
+    <p id="listPara"></p>
+
+    <!-- Task-10 -->
+    <div id="parent">
+      <button type="submit">Button</button>
+    </div>
+    <button id="addButtons">Add Button</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
