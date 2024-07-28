@@ -113,3 +113,10 @@
 - Use closures to maintain private state and create encapsulated modules.
 - Apply closures in practical scenarios like generating unique ID's and memoization.
 - Use closures in loops to capture and use variables correctly.
+
+## Day-16: Recursion:
+
+- Understand and implement basic recursion.
+- Apply recursion to solve problems with arrays and strings.
+- Use recursion for searching and counting elements in arrays.
+- Perform tree traversal and calculate tree depth using recursion.
