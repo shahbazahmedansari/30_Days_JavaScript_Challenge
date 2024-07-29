@@ -120,3 +120,11 @@
 - Apply recursion to solve problems with arrays and strings.
 - Use recursion for searching and counting elements in arrays.
 - Perform tree traversal and calculate tree depth using recursion.
+
+## Day-17: Data Structures:
+
+- Implement and use linked lists for dynamic data storage.
+- Use stacks for LIFO (Last-in-First-Out) operations and reverse data.
+- Use queues for FIFO (First-in-First-Out) operations and simulate real world scenarios.
+- Implement binary trees for heirarchical data storage and traversal.
+- Understand and use graphs for network representations and pathfinding.
