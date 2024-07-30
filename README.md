@@ -128,3 +128,11 @@
 - Use queues for FIFO (First-in-First-Out) operations and simulate real world scenarios.
 - Implement binary trees for heirarchical data storage and traversal.
 - Understand and use graphs for network representations and pathfinding.
+
+## Day-18: Algorithms:
+
+- Implement and understand common sorting algorithms.
+- Implement and understand common searching algorithms.
+- Solve string manipulation problems using algorithms.
+- Perform array operations using algorithms.
+- Apply dynamic programming to solve complex problems.
