@@ -136,3 +136,11 @@
 - Solve string manipulation problems using algorithms.
 - Perform array operations using algorithms.
 - Apply dynamic programming to solve complex problems.
+
+## Day-19: Regular Expressions:
+
+- Understand and create basic regular expressions.
+- Use character classes and quantifiers in regular expressions.
+- Implement grouping and capturing in regular expressions.
+- Apply assertions and boundaries in regular expressions.
+- Use regular expressions for practical applications like validating passwords and URL's.
