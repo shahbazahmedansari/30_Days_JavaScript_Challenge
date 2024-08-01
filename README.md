@@ -144,3 +144,10 @@
 - Implement grouping and capturing in regular expressions.
 - Apply assertions and boundaries in regular expressions.
 - Use regular expressions for practical applications like validating passwords and URL's.
+
+## Day-20: LocalStorage and SessionStorage:
+
+- Understand how to use `localStorage` and `sessionStorage` for persistent and session-specific data storage.
+- Save, retrieve, and remove data from both `localStorage` and `sessionStorage`.
+- Implement form data storage using `localStorage` and `sessionStorage`.
+- Compare and contrast the use cases for `localStorage` and `sessionStorage`.
