@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity-5: Comparing LocalStorage and SessionStorage</title>
+  </head>
+  <body>
+    <script>
+      // Task-9: Write a function that accepts a key and a value, and saves the value to both "localStorage" and "sessionStorage".
+      // Retrieve and log the values from both storage mechanisms.
+
+      function saveBothStorage(key, value) {
+        localStorage.setItem(key, value);
+        sessionStorage.setItem(key, value);
+        const lsValue = localStorage.getItem(key);
+        const ssValue = sessionStorage.getItem(key);
+        console.log("localStorage", lsValue);
+        console.log("sessionStorage", ssValue);
+      }
+      saveBothStorage("myText", "This is my new Text.");
+
+      // Task-10: Write a function that clears all data from both "localStorage" and "sessionStorage". Verify that both storages are empty.
+      function clearStorage() {
+        localStorage.clear();
+        sessionStorage.clear();
+        console.log("localStorage", localStorage);
+        console.log("sessionStorage", sessionStorage);
+      }
+      clearStorage();
+    </script>
+  </body>
+</html>

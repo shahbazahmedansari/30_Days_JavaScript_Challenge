@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity-4: Using SessionStorage</title>
+  </head>
+  <body>
+    <form id="userForm">
+      <label for="name">Name: </label>
+      <input
+        id="name"
+        placeholder="Enter Name"
+        style="margin: 10px 0; padding: 10px"
+      /><br />
+      <label for="email">Email: </label>
+      <input
+        id="email"
+        placeholder="Enter Email"
+        style="margin: 10px 0; padding: 10px"
+      /><br />
+      <button type="submit" style="margin: 10px 0; padding: 10px" id="button">
+        Submit
+      </button>
+    </form>
+    <div id="displayData"></div>
+    <script>
+      // Task-7: Create a simple form that saves user input (e.g., name and email) to "sessionStorage" when submitted.
+      // Retrieve and display the saved data on page load.
+
+      function saveUserData(e) {
+        e.preventDefault();
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const userData = { name, email };
+        sessionStorage.setItem("userDataNew", JSON.stringify(userData));
+      }
+
+      function displayUserData() {
+        const savedData = sessionStorage.getItem("userDataNew");
+        if (savedData) {
+          const parsedSavedData = JSON.parse(savedData);
+          const displayData = document.getElementById("displayData");
+
+          displayData.innerHTML = `
+            <h3>Saved Data: </h3>
+            <h4>Name: ${parsedSavedData.name}</h4>
+            <h4>Email: ${parsedSavedData.email}</h4>
+            `;
+        }
+      }
+      document
+        .getElementById("userForm")
+        .addEventListener("submit", saveUserData);
+      window.addEventListener("load", displayUserData);
+
+      // Task-8: Write a script to remove an item from "sessionStorage". Log the "sessionStorage" content before and after removal.
+      const removalText = "This is the text to be removed.";
+      sessionStorage.setItem("remove", removalText);
+      const exText = sessionStorage.getItem("remove");
+      console.log("Before removal: ", sessionStorage);
+      sessionStorage.removeItem("remove");
+      console.log("After removal: ", sessionStorage);
+    </script>
+  </body>
+</html>

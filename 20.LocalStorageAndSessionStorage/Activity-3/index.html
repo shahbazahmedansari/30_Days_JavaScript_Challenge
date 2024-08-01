@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity-3: Understanding SessionStorage</title>
+  </head>
+  <body>
+    <script>
+      // Task-5: Write a script to save a string value to "sessionStorage" and retrieve it. Log the retrieved value.
+      const key = "sessionItem";
+      const value = "This is a sessionStorage example";
+      sessionStorage.setItem(key, value);
+      const myText = sessionStorage.getItem(key);
+      console.log(myText);
+
+      // Task-6: Write a script to save an object to "sessionStorage" by converting it to a JSON string. Retrieve and parse the object, then log it.
+      const obj = {
+        name: "Tom Hardy",
+        age: 52,
+        profession: "Actor",
+      };
+      const objString = JSON.stringify(obj);
+      sessionStorage.setItem("object", objString);
+      const stringValue = sessionStorage.getItem("object");
+      const actualValue = JSON.parse(stringValue);
+      console.log(actualValue);
+    </script>
+  </body>
+</html>

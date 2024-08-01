@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity-2: Using LocalStorage</title>
+  </head>
+  <body>
+    <form id="userForm">
+      <label for="name">Name: </label>
+      <input
+        placeholder="Enter name"
+        id="name"
+        type="text"
+        style="margin: 10px 0; padding: 10px"
+      /><br />
+      <label for="email">Email: </label>
+      <input
+        type="email"
+        placeholder="Enter Email"
+        id="email"
+        style="margin: 10px 0; padding: 10px"
+      /><br />
+      <button id="button" type="submit" style="margin: 10px 0; padding: 10px">
+        Submit
+      </button>
+    </form>
+    <div id="displayData"></div>
+    <script>
+      // Task-3: Create a simple form that saves user input (e.g., name and email) to "localStorage"
+      // when submitted. Retrieve and display the saved data on page load.
+      function saveUserData(e) {
+        e.preventDefault();
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const userData = { name, email };
+        localStorage.setItem("userData", JSON.stringify(userData));
+      }
+
+      function displayUserData() {
+        const savedData = localStorage.getItem("userData");
+        if (savedData) {
+          const userSavedData = JSON.parse(savedData);
+
+          const displayData = document.getElementById("displayData");
+
+          displayData.innerHTML = `
+            <h3>Saved Data</h3>
+            <h4>Name: ${userSavedData.name}</h4>
+            <h4>Email: ${userSavedData.email}</h4>
+            `;
+        }
+      }
+      document
+        .getElementById("userForm")
+        .addEventListener("submit", saveUserData);
+      window.addEventListener("load", displayUserData);
+
+      // Task-4: Write a script to remove an item from "localStorage". Log the "localStorage" content before and after removal.
+      const removeText = "This text will be removed";
+      localStorage.setItem("remove", removeText);
+      const exText = localStorage.getItem("remove");
+      console.log("Before removal: ", localStorage);
+      localStorage.removeItem("remove");
+      console.log("After removal: ", localStorage);
+    </script>
+  </body>
+</html>
