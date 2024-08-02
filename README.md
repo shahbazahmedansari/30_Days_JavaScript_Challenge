@@ -151,3 +151,10 @@
 - Save, retrieve, and remove data from both `localStorage` and `sessionStorage`.
 - Implement form data storage using `localStorage` and `sessionStorage`.
 - Compare and contrast the use cases for `localStorage` and `sessionStorage`.
+
+## Day-21: Leetcode Easy:
+
+- Solve common leetcode problems.
+- Apply problem-solving skills to implement algorithms.
+- Understand and handle edge cases in algorithmic solutions.
+- Gain confidence in solving easy-level coding challenges on leetcode.
