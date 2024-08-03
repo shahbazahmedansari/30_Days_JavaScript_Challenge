@@ -158,3 +158,10 @@
 - Apply problem-solving skills to implement algorithms.
 - Understand and handle edge cases in algorithmic solutions.
 - Gain confidence in solving easy-level coding challenges on leetcode.
+
+## Day-22: Leetcode Medium:
+
+- Solve common medium-level LeetCode problems.
+- Apply advanced problem-solving skills to implement algorithms.
+- Understand and handle edge cases in more complex algorithmic solutions.
+- Gain confidence in solving medium-level coding challenges on LeetCode.
