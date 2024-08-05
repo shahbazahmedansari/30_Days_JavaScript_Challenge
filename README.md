@@ -152,16 +152,23 @@
 - Implement form data storage using `localStorage` and `sessionStorage`.
 - Compare and contrast the use cases for `localStorage` and `sessionStorage`.
 
-## Day-21: Leetcode Easy:
+## Day-21: LeetCode Easy:
 
 - Solve common leetcode problems.
 - Apply problem-solving skills to implement algorithms.
 - Understand and handle edge cases in algorithmic solutions.
 - Gain confidence in solving easy-level coding challenges on leetcode.
 
-## Day-22: Leetcode Medium:
+## Day-22: LeetCode Medium:
 
 - Solve common medium-level LeetCode problems.
 - Apply advanced problem-solving skills to implement algorithms.
 - Understand and handle edge cases in more complex algorithmic solutions.
 - Gain confidence in solving medium-level coding challenges on LeetCode.
+
+## Day-23: LeetCode Hard:
+
+- Solve complex LeetCode problems.
+- Apply advanced problem-solving skills to implement efficient algorithms.
+- Understand and handle edge cases in hard algorithmic solutions.
+- Gain confidence in solving hard-level coding challenges on LeetCode.
