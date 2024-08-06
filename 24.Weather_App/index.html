@@ -16,12 +16,19 @@
         placeholder="Search for different cities..."
         id="search"
       />
-      <button id="searchButton" onclick="getCurrentWeather()">Search</button>
+      <button id="searchButton" onclick="getCurrentWeather(); getForecast();">
+        Search
+      </button>
     </div>
     <div id="result">
       <div id="temp"></div>
       <h2 id="cityName"></h2>
-      <div id="condition"></div>
+      <div id="details"></div>
+    </div>
+    <div id="container">
+      <div class="card" id="card1"></div>
+      <div class="card" id="card2"></div>
+      <div class="card" id="card3"></div>
     </div>
     <script src="script.js"></script>
   </body>

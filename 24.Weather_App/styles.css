@@ -17,7 +17,7 @@
   align-content: center;
   align-items: center;
   justify-content: center;
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-bottom: 3rem;
 }
 
@@ -36,19 +36,20 @@
 #temp {
   color: blanchedalmond;
   font-size: 5rem;
-  font-family: "Times New Roman", Times, serif;
+  font-family: sans-serif;
 }
 
 #cityName {
   color: antiquewhite;
   font-size: 5rem;
-  font-family: "Times New Roman", Times, serif;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
-#condition {
+#details {
   color: antiquewhite;
-  font-size: 5rem;
-  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  font-family: sans-serif;
 }
 
 #searchButton {
@@ -59,4 +60,26 @@
   border-radius: 1rem;
   margin: 0 1rem;
   cursor: pointer;
+}
+
+#container {
+  background-color: aqua;
+  border-radius: 1rem;
+  color: #0e0e0e;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+.card {
+  background-color: aliceblue;
+  color: #0e0e0e;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: 10rem;
+  text-align: center;
 }
