@@ -184,7 +184,16 @@
 ## Day-25: Project 2 - Movie Search App:
 
 - Set up a basic project structure with HTML and CSS.
-- Use the ```fetch``` API to retrieve and display movie data from a public API.
+- Use the `fetch` API to retrieve and display movie data from a public API.
 - Implement search functionality to fetch and display movie data based on user input.
 - Fetch and display detailed information about selected movies.
 - Enhance the user interface with CSS styles and animations to make the movie search app more interactive and visually appealing.
+
+## Day-26: Project 3 - Chat Application:
+
+- Set up a basic project structure with HTML and CSS.
+- Create a Websocket server using Node.js and the `ws` library.
+- Establish a Websocket connection from the client side to send and receive messages.
+- Build a chat interface to display and send messages.
+- Add user authentication and display usernames in the chat.
+- Enhance the user interface using CSS styles and animations to make the chat application more interactive and visually appealing.
