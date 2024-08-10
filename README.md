@@ -206,3 +206,11 @@
 - Update existing tasks and display with edited task details.
 - Delete tasks from the list with a confirmation dialog to prevent accidental deletions.
 - Style the task management app to make it visually appealing and user-friendly.
+
+## Day-28: Project 5 - E-Commenrce Website:
+
+- Set up a basic project structure with HTML and CSS.
+- Dynamically generate and display a product listing from product data.
+- Implement a shopping cart that allows users to add products, update quantities, and remove items.
+- Create a checkout form to collect user information and simulate the checkout process.
+- Enhance the user interface using CSS styles to make the e-commerce website visually appealing and user-friendly.
