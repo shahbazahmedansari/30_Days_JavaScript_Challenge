@@ -180,3 +180,11 @@
 - Implement search functionality to fetch weather data for different cities.
 - Display a 5-day weather forecast using data from a public API.
 - Enhance the user interface with icons and animations to make the weather app more interactive and visually appealing.
+
+## Day-25: Project 2 - Movie Search App:
+
+- Set up a basic project structure with HTML and CSS.
+- Use the ```fetch``` API to retrieve and display movie data from a public API.
+- Implement search functionality to fetch and display movie data based on user input.
+- Fetch and display detailed information about selected movies.
+- Enhance the user interface with CSS styles and animations to make the movie search app more interactive and visually appealing.
