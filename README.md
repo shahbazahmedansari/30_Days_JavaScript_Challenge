@@ -197,3 +197,12 @@
 - Build a chat interface to display and send messages.
 - Add user authentication and display usernames in the chat.
 - Enhance the user interface using CSS styles and animations to make the chat application more interactive and visually appealing.
+
+## Day-27: Project 4 - Task Management App:
+
+- Set up a basic project structure with HTML and CSS.
+- Implement task creation, reading, updating and deletion functionalities.
+- Handle form submission to create new tasks and display them in the task list.
+- Update existing tasks and display with edited task details.
+- Delete tasks from the list with a confirmation dialog to prevent accidental deletions.
+- Style the task management app to make it visually appealing and user-friendly.
