@@ -222,3 +222,13 @@
 - Create and display posts with details like text, image, username and timestamp.
 - Handle post interactions like liking and commenting, and update the display accordingly.
 - Enhance the user interface with CSS styles and animations to make the social media dashboard visually appealing and usre-friendly.
+
+## Day-30: Final Project - Social Media Dashboard with Full Features:
+
+- Set up comprehensive project structure with HTML and CSS.
+- Implement user authentication, including registration and login, with input validation.
+- Create and update user profiles, displaying user information and allowing updates.
+- Handle creating and displaying posts with user-specific details.
+- Implement post interactions like liking and commenting, with real-time updates.
+- Create a notification system to alert users of new interactions on their posts.
+- Enhance the user interface with CSS styles and animations to create a visually appealing and interactive social media dashboard.
