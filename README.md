@@ -214,3 +214,11 @@
 - Implement a shopping cart that allows users to add products, update quantities, and remove items.
 - Create a checkout form to collect user information and simulate the checkout process.
 - Enhance the user interface using CSS styles to make the e-commerce website visually appealing and user-friendly.
+
+## Day-29: Project 6 - Social Media Dashboard:
+
+- Set up a basic project structure with HTML and CSS.
+- Implement user authentication and store user information.
+- Create and display posts with details like text, image, username and timestamp.
+- Handle post interactions like liking and commenting, and update the display accordingly.
+- Enhance the user interface with CSS styles and animations to make the social media dashboard visually appealing and usre-friendly.
